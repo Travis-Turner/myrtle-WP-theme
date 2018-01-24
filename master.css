@@ -1,0 +1,59 @@
+/* html */
+body, h1, div, html {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+header h1 {
+  font-family: 'Berkshire Swash', fantasy;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 20px;
+}
+header #title-small {
+  font-size: 50%;
+}
+#navbar-left {
+  display: flex;
+  align-items: center;
+}
+#navbar-left ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Nunito Sans';
+}
+#navbar-left ul {
+  list-style: none;
+}
+.fa-home {
+  color: rgb(23, 96, 46);
+}
+/* posts */
+#main__container {
+  display: flex;
+}
+#post__container {
+  width: 75%;
+  box-sizing: border-box;
+  margin: 40px 60px;
+}
+#sidebar__container {
+  width: 25%;
+}
+/* individual post */
+.post {
+  padding: 30px 60px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 1px 1px 0px 0px rgb(191, 191, 191);
+  margin-top: 20px;
+}
+.post h3, .post h4, .post p {
+  font-family: 'Nunito Sans';
+}
+.post-header__container {
+  display: flex;
+}
+.post-header__left, .post-header__right {
+  width: 50%;
+}
